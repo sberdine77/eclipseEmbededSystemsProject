@@ -45,10 +45,13 @@ void changeWaveType(char *newType) {
 void draw() {
     if(waveType == RECT) {
     //Rectangular
+//        printf("Rectangular");
     } else if(waveType == TRI) {
     //Triangular
+//        printf("Triangular");
     } else if(waveType == SEN) {
     //Senoid
+//        printf("Senoid");
     }
 }
 

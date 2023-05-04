@@ -1,63 +1,63 @@
 # FIXED
 
 main.obj: ../main.c
-main.obj: /Users/savioberdine/workspace_v12/FinalProject/stateManager.c
-main.obj: /Applications/ti/ccs1220/ccs/ccs_base/msp430/include/msp430.h
-main.obj: /Applications/ti/ccs1220/ccs/ccs_base/msp430/include/msp430fr2355.h
-main.obj: /Applications/ti/ccs1220/ccs/ccs_base/msp430/include/in430.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h
-main.obj: /Applications/ti/ccs1220/ccs/ccs_base/msp430/include/legacy.h
-main.obj: /Users/savioberdine/workspace_v12/FinalProject/timmerConfig.h
-main.obj: /Users/savioberdine/workspace_v12/FinalProject/serialReader.c
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdarg.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h
-main.obj: /Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h
-main.obj: /Users/savioberdine/workspace_v12/FinalProject/waveGenerator.c
+main.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430.h
+main.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430fr2355.h
+main.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/in430.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h
+main.obj: C:/ti/ccs1230/ccs/ccs_base/msp430/include/legacy.h
+main.obj: E:/code\ composer\ works/ProjetoEmbarcados/stateManager.h
+main.obj: E:/code\ composer\ works/ProjetoEmbarcados/timmerConfig.h
+main.obj: E:/code\ composer\ works/ProjetoEmbarcados/serialReader.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdarg.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h
+main.obj: C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h
+main.obj: E:/code\ composer\ works/ProjetoEmbarcados/waveGenerator.h
 
 ../main.c:
 
-/Users/savioberdine/workspace_v12/FinalProject/stateManager.c:
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430.h:
 
-/Applications/ti/ccs1220/ccs/ccs_base/msp430/include/msp430.h:
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/msp430fr2355.h:
 
-/Applications/ti/ccs1220/ccs/ccs_base/msp430/include/msp430fr2355.h:
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/in430.h:
 
-/Applications/ti/ccs1220/ccs/ccs_base/msp430/include/in430.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics_legacy_undefs.h:
+C:/ti/ccs1230/ccs/ccs_base/msp430/include/legacy.h:
 
-/Applications/ti/ccs1220/ccs/ccs_base/msp430/include/legacy.h:
+E:/code\ composer\ works/ProjetoEmbarcados/stateManager.h:
 
-/Users/savioberdine/workspace_v12/FinalProject/timmerConfig.h:
+E:/code\ composer\ works/ProjetoEmbarcados/timmerConfig.h:
 
-/Users/savioberdine/workspace_v12/FinalProject/serialReader.c:
+E:/code\ composer\ works/ProjetoEmbarcados/serialReader.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/string.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_ti_config.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/linkage.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/cdefs.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/xlocale/_string.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdio.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdarg.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/stdarg.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/sys/_types.h:
 
-/Applications/ti/ccs1220/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h:
+C:/ti/ccs1230/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/machine/_types.h:
 
-/Users/savioberdine/workspace_v12/FinalProject/waveGenerator.c:
+E:/code\ composer\ works/ProjetoEmbarcados/waveGenerator.h:
 

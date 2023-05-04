@@ -84,7 +84,7 @@
 #include <msp430.h>
 #include <string.h>
 #include <stdio.h>
-#include <waveGenerator.c>
+#include <waveGenerator.h>
 unsigned int lixo;
 
 void Init_GPIO();
@@ -120,8 +120,6 @@ char myGetChar (int canal){
     }
 }
 
-
-
 void  myGetLine (char * buffer, int maxBuffer, int canal){
     char dado;
     int ptr = 0;
@@ -141,7 +139,6 @@ void  myGetLine (char * buffer, int maxBuffer, int canal){
     while (maxBuffer);
     buffer[ptr]=0;
 }
-
 
 void myPutch(char dado, int canal){
     if (canal==0){

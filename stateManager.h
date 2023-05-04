@@ -68,7 +68,7 @@ void setupTimer() {
             TBIE_1 // interrupt enable.
     */
 
-    TB0CTL |= TBCLGRP_0 | CNTL_0 | TBSSEL_2 | ID_3 | MC_1 | TBIE_1;
+    TB0CTL |= TBCLGRP_0 | CNTL_0 | TBSSEL_2 | ID_0 | MC_1 | TBIE_1;
 
 
   /*
@@ -114,23 +114,16 @@ void setupTimer() {
              COV_1 // Capture overflow occurred
   */
 
-    //TB0CCTL0 |= CM_0 | CCIE_1;
-    TB0CCTL1 |= CM_0 | CAP_0 | OUTMOD_3 | OUT_1;
+    TB0CCTL0 |= CM_0 | CCIE_1;
+//    TB0CCTL1 |= CM_0 | CAP_0 | OUTMOD_3 | OUT_1;
 
-             //TB0CCR0 = 55000;
-             TB0CCR1 = 125;
+             TB0CCR0 = 1000000;
+//             TB0CCR1 = 125;
 
 
 
 
     __bis_SR_register(GIE);           // Enable interrupts
-}
-
-void blink() {
-    if(mili >= ledCompare) {
-        ledCompare += 500;
-        P1OUT ^= BIT3;
-    }
 }
 
 void nextState() {
@@ -139,4 +132,12 @@ void nextState() {
         return;
     }
     state += 1;
+}
+
+
+void blink() {
+    if(mili >= ledCompare) {
+        ledCompare += 500;
+        P1OUT ^= BIT0;
+    }
 }
